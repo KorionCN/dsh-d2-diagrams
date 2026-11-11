@@ -23,9 +23,17 @@
 
 ## 安装
 
+### 从 GitHub 安装
+
+```sh
+dsh plugin --profile web add github:KorionCN/dsh-d2-diagrams
+```
+
+### 从本地目录安装
+
 通过插件管理器按本地路径安装 bundle：
 
-```
+```text
 plugin_manager install_bundle  →  /绝对路径/dsh-d2-diagrams
 ```
 

@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "D2 diagram preview for DeepSeek Harness: open .d2 files in the right Sidebar with a live-rendered chart, a code editor, and switchable chart / code / split views.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KorionCN/dsh-d2-diagrams.git"
+  },
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
