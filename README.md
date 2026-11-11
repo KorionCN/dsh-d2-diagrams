@@ -1,5 +1,7 @@
 # dsh-d2-diagrams
 
+[English](README.en.md) | [简体中文](README.md)
+
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件：用 **D2**（d2lang）绘图并实时渲染。
 
 在右侧边栏打开任意 `.d2` 文件，即可获得 Doc 类产品同款的图表区块体验：
