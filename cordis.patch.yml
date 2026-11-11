@@ -1,0 +1,19 @@
+# dsh-d2-diagrams bundle patch.
+#
+# One row mounts the package: the Host half (lib/index.js) serves the
+# authenticated `/d2/render` route that compiles D2 source through the local
+# `d2` CLI, and the browser half (lib/client.js, discovered through the
+# package.json `dsh.client` declaration) registers the `.d2` document
+# renderer in the right Sidebar preview.
+- insert:
+    - id: d2-diagrams
+      name: 'dsh-d2-diagrams'
+      # All fields optional; shown here with their defaults.
+      # config:
+      #   command: d2          # d2 CLI executable, resolved through PATH
+      #   layout: elk          # dagre | elk | tala
+      #   timeoutMs: 20000     # per-render deadline
+      #   maxSourceBytes: 1048576
+      #   lightTheme: 0        # `d2 themes` id for light mode
+      #   darkTheme: 200       # `d2 themes` id for dark mode
+      #   pad: 32
