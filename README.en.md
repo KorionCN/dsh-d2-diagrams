@@ -26,13 +26,13 @@ This plugin delegates compilation to the local D2 CLI rather than reimplementing
 
 Edit the D2 source on the left in split view, and the diagram on the right automatically re-renders after a 450ms debounce, making it easy to adjust nodes, connections, and layout interactively.
 
-![Live split-view preview of D2 source and diagram](assets/screenshot-split.png)
+![Live split-view preview of D2 source and diagram](assets/screenshot-split.webp)
 
 ### Chart only
 
 The chart view supports fitting the width, zooming, copying D2 source, and downloading SVG, while automatically following the application's light or dark theme.
 
-![D2 chart preview with zoom controls and SVG download](assets/screenshot-chart.png)
+![D2 chart preview with zoom controls and SVG download](assets/screenshot-chart.webp)
 
 ## How it works
 

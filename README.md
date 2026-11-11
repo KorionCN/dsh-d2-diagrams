@@ -26,13 +26,13 @@
 
 在分屏视图中编辑左侧 D2 源码，右侧图表会在 450ms 防抖后自动重新渲染，便于实时调整节点、连线和布局。
 
-![D2 源码与图表分屏实时预览](assets/screenshot-split.png)
+![D2 源码与图表分屏实时预览](assets/screenshot-split.webp)
 
 ### 仅展示图表
 
 图表视图支持适应宽度、缩放、复制 D2 源码和下载 SVG，并自动跟随应用的浅色或深色主题。
 
-![D2 图表预览、缩放与 SVG 下载](assets/screenshot-chart.png)
+![D2 图表预览、缩放与 SVG 下载](assets/screenshot-chart.webp)
 
 ## 工作原理
 
