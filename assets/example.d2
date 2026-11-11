@@ -1,0 +1,46 @@
+direction: right
+
+user: Developer {
+  shape: person
+  style.fill: "#E8F0FE"
+  style.stroke: "#4A6EE0"
+}
+
+source: D2 Source {
+  shape: code
+  style.fill: "#F6F8FA"
+  style.stroke: "#6E7781"
+}
+
+engine: D2 CLI {
+  shape: hexagon
+  style.fill: "#E8F5E9"
+  style.stroke: "#2E7D32"
+}
+
+svg: SVG Diagram {
+  style.fill: "#FFF4E5"
+  style.stroke: "#C26A00"
+}
+
+preview: DeepSeek Harness {
+  style.fill: "#F7F5FF"
+  style.stroke: "#7C5CFC"
+
+  sidebar: Sidebar Preview {
+    style.fill: "#FFFFFF"
+    style.stroke: "#7C5CFC"
+  }
+
+  chat: Interactive Chat Card {
+    style.fill: "#FFFFFF"
+    style.stroke: "#7C5CFC"
+  }
+}
+
+user -> source: Write and edit
+source -> engine: Compile with ELK
+engine -> svg: Render
+svg -> preview.sidebar: Open .d2 files
+svg -> preview.chat: Call d2_render
+preview.sidebar -> user: Chart / code / split
